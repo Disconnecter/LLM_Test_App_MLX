@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "C4A7766A-E925-4218-A22E-6F5A2DA2DEA3",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "performanceAntipatternCheckerEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:LLM Aplication.xcodeproj",
+      "identifier" : "2AD7F76E2F700A4F0029435D",
+      "name" : "LLM Aplication"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:LLM Aplication.xcodeproj",
+        "identifier" : "2AD7F77B2F700A500029435D",
+        "name" : "LLM AplicationTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/MLXServicePackage",
+        "identifier" : "MLXServicePackageTests",
+        "name" : "MLXServicePackageTests"
+      }
+    }
+  ],
+  "version" : 1
+}
