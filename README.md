@@ -6,6 +6,8 @@ Implemented:
   - unit tests for the package and the chat model
 
 Improvements TO-DO:
+ - move Package to separate repo
+ - CI/CD
  - save chat history
  - restore chat history
  - show list of chats
